@@ -170,10 +170,6 @@ h3 {
     padding-bottom: 8px;
 }
 
-#div_homeease, #div_promptplaza, #div_reactnative {
-    cursor: pointer;
-}
-
 #imagesOffProjects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
