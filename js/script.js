@@ -22,12 +22,18 @@ setInterval(updateAge, 365*24*60*60*1000);
 const currentYear = new Date().getFullYear();
 document.getElementById("copyright").innerHTML =`© ${currentYear}  Tjerk Symens`;
 
-document.querySelector('#div_homeease').addEventListener('click', () => {
+document.querySelector('#liveHome').addEventListener('click', () => {
     window.open('https://homeease.azurewebsites.net/index.php', '_blank');
 });
-document.querySelector('#div_promptplaza').addEventListener('click', () => {
+document.querySelector('#gitHome').addEventListener('click', () => {
+    window.open('https://github.com/tjerksymens/HomeEase', '_blank');
+});
+document.querySelector('#livePrompt').addEventListener('click', () => {
     window.open('https://promptplaza.azurewebsites.net/', '_blank');
 });
-document.querySelector('#div_reactnative').addEventListener('click', () => {
+document.querySelector('#gitPrompt').addEventListener('click', () => {
+    window.open('https://github.com/tjerksymens/xd_aiai_group_DEV4', '_blank');
+});
+document.querySelector('#gitReact').addEventListener('click', () => {
     window.open('https://github.com/tjerksymens/examen_mobile_development', '_blank');
 });
