@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /CV_Tjerk_Symens.pdf
+
+sitemap: https://www.tjerksymens.be/sitemap.xml
