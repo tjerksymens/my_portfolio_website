@@ -191,11 +191,6 @@ footer a {
     color: #1D494B;
 }
 
-#skills_h2 {
-    display: none;
-    visibility: hidden;
-}
-
 @media (min-width: 1000px) {
     .container {
         max-width: 1000px;
