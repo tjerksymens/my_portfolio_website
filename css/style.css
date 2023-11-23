@@ -217,7 +217,6 @@ footer a {
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 }
 
@@ -246,6 +245,11 @@ footer a {
         padding: 0;
     }
 
+    #my_foto {
+        width: 65%;
+        height: auto;
+        border-radius: 50%;
+    }
 }
 
 @keyframes bounce {
