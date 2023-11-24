@@ -126,14 +126,13 @@ h3 {
 
 #projects p{
     text-align: left;
-    padding-left: 8px;
     padding-bottom: 8px;
 }
 
 #imagesOffProjects {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
+    gap: 32px;
     align-content: center;
     text-align: center;
 }
@@ -142,7 +141,7 @@ h3 {
     width: 100%;
     height: auto;
     border-radius: 16px;
-    padding: 8px;
+    padding-bottom: 8px;
 }
 
 button {
