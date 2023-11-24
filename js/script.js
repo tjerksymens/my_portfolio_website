@@ -23,6 +23,10 @@ document.querySelector("#arrow_down").addEventListener('click', () => {
     document.querySelector("#about_home_screen").scrollIntoView({behavior: "smooth"});
 });
 
+document.querySelector("#download-content").addEventListener('click', () => {
+    document.querySelector("#download-content a").click();
+});
+
 document.querySelector('#liveHome').addEventListener('click', () => {
     window.open('https://homeease.azurewebsites.net/index.php', '_blank');
 });
