@@ -9,6 +9,7 @@ nav {
     top: 0;
     width: 100%;
     height: 48px;
+    z-index: 2;
 }
 
 nav a {
@@ -72,6 +73,10 @@ h1 {
     position: absolute;
     bottom: 1em;
     animation: bounce 1.5s infinite ease-out;
+}
+
+#arrow_down, #wave{
+    z-index: 1;
 }
 
 p {
