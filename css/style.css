@@ -255,6 +255,14 @@ footer a {
     }
 
     #my_foto {
+        width: 60%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    #my_foto {
         width: 65%;
         height: auto;
         border-radius: 50%;

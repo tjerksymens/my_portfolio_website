@@ -19,8 +19,9 @@ updateAge();
 
 setInterval(updateAge, 365*24*60*60*1000);
 
-const currentYear = new Date().getFullYear();
-document.getElementById("copyright").innerHTML =`© ${currentYear}  Tjerk Symens`;
+document.querySelector("#arrow_down").addEventListener('click', () => {
+    document.querySelector("#about_home_screen").scrollIntoView({behavior: "smooth"});
+});
 
 document.querySelector('#liveHome').addEventListener('click', () => {
     window.open('https://homeease.azurewebsites.net/index.php', '_blank');
@@ -37,3 +38,6 @@ document.querySelector('#gitPrompt').addEventListener('click', () => {
 document.querySelector('#gitReact').addEventListener('click', () => {
     window.open('https://github.com/tjerksymens/examen_mobile_development', '_blank');
 });
+
+const currentYear = new Date().getFullYear();
+document.getElementById("copyright").innerHTML =`© ${currentYear}  Tjerk Symens`;
