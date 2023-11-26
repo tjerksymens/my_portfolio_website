@@ -115,6 +115,7 @@ p {
     color: #1D494B;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
+    text-transform: uppercase; 
 }
 
 #download_cv img {
@@ -127,6 +128,10 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
     color: #1D494B;
+}
+
+#skills_h2 {
+    padding-top: 20px;
 }
 
 h3 {
@@ -206,6 +211,43 @@ button {
     font-size: 18px;
     margin-top: 8px;
     margin-right: 16px;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#img_404 {
+    width: 300px;
+    height: auto;
+    padding-bottom: 16px;
+}
+
+.error h1 {
+    font-size: 38px;
+    padding: 0;
+}
+
+#p_404 {
+    padding-bottom: 24px;
+}
+
+#go-home {
+    text-decoration: none;
+    color: #1D494B;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    text-transform: uppercase; 
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-block;
+    background-color: #BACED1;
+    border: none;
+    border-radius: 8px;
 }
 
 footer {
