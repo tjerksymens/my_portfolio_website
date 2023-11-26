@@ -1,10 +1,10 @@
 {
     "cleanUrls": true,
 
-    "routes": {
+    "routes": [{
         "/": "index.html",
         "/404": "404.html"
-    },
+    }],
 
     "rewrites": [{
         "source": "/**",
