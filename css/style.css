@@ -102,7 +102,7 @@ p {
 #download-content {
     background-color: #BACED1;
     border-radius: 12px;
-    padding: 12px 16px;
+    padding: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,13 +114,13 @@ p {
     text-decoration: none;
     color: #1D494B;
     font-family: 'Playfair Display', serif;
-    font-size: 24px;
+    font-size: 18px;
     text-transform: uppercase; 
 }
 
 #download_cv img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     padding-right: 8px;
 }
 
