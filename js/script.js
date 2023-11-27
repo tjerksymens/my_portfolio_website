@@ -19,6 +19,21 @@ updateAge();
 
 setInterval(updateAge, 365*24*60*60*1000);
 
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+        } else {
+            entry.target.classList.remove('in-view');
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach(element => {
+    observer.observe(element);
+});
+
 document.querySelector("#arrow_down").addEventListener('click', () => {
     document.querySelector("#about_home_screen").scrollIntoView({behavior: "smooth"});
 });
