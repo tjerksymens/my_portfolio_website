@@ -40,7 +40,7 @@ nav a {
 }
 
 #h1_and_img {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -315,11 +315,16 @@ footer a {
     .project:nth-child(3) {
         transition-delay: 600ms;
     }
-    
 
     .container {
         max-width: 1000px;
         margin: 0 auto;
+    }
+
+    #h1_and_img {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 
