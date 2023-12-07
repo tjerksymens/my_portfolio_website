@@ -51,6 +51,7 @@ nav a {
 h1 { 
     font-family: 'Playfair Display', serif;
     font-size: 48px;
+    line-height: 68px;
     color: #1D494B;;
     padding-right: 64px;
 }
@@ -95,6 +96,7 @@ h1 {
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    line-height: 26px;
     color: #1D494B;
 }
 
@@ -150,6 +152,7 @@ h2 {
 h3 {
     font-family: 'Playfair Display', serif;
     font-size: 24px;
+    line-height: 34px;
     color: #1D494B;
 }
 
