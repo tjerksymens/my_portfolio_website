@@ -42,14 +42,8 @@ document.querySelector("#download-content").addEventListener('click', () => {
     document.querySelector("#download-content a").click();
 });
 
-document.querySelector('#liveHome').addEventListener('click', () => {
-    window.open('https://homeease.azurewebsites.net/index.php', '_blank');
-});
 document.querySelector('#gitHome').addEventListener('click', () => {
     window.open('https://github.com/tjerksymens/HomeEase', '_blank');
-});
-document.querySelector('#livePrompt').addEventListener('click', () => {
-    window.open('https://promptplaza.azurewebsites.net/', '_blank');
 });
 document.querySelector('#gitPrompt').addEventListener('click', () => {
     window.open('https://github.com/tjerksymens/xd_aiai_group_DEV4', '_blank');
