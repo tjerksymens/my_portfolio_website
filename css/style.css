@@ -265,6 +265,64 @@ button {
     border-radius: 8px;
 }
 
+.react_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+#react_img {
+    width: 400px;
+    height: auto;
+}
+
+.alina_text_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    padding-bottom: 32px;
+}
+
+.alina_text_img h2 {
+    padding-top: 8px;
+}
+
+#img_reactnative {
+    margin-top: 32px;
+    margin-right: 64px;
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.contact_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #BACED1;
+    border-radius: 12px;
+    padding: 12px;
+    display: inline-block;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #1D494B;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
 footer {
     overflow: hidden;
     bottom: 0;
@@ -349,6 +407,17 @@ footer a {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .alina_text_img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    #img_reactnative {
+        width: 100%;
     }
 }
 
