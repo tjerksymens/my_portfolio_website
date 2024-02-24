@@ -24,8 +24,45 @@
     <nav>
         <a href="index.html" id="Home_btn">Tjerk Symens</a>
     </nav>
-    <div class="container">
+    <div class="container container__blog">
         <h1>Blog</h1>
+        <div class="info-stage">
+            <div>
+                <h2>Stagaire</h2>
+                <h3>Tjerk Symens</h3>
+                <img class="foto-tjerk" src="./images/me.webp" alt="Foto van Tjerk Symens">
+            </div>
+            <div>
+                <h2>Stage</h2>
+                <h3>Stage bij <a class="link" href="https://www.codeer.be/" target="_blank">Codeer</a></h3>
+                <img class="foto-codeer" src="./images/codeer_logo.png" alt="logo van codeer">
+            </div>
+        </div>
+        <div class="week_1-2">
+            <h2>Eerste 2 weken</h2>
+            <h3>Week 1</h3>
+            <p>Wat een start! Vanaf dag één voelde ik me helemaal thuis bij het Codeer team in Mechelen. Het team bestaat uit een gezellige groep mensen: Dimitri, Bjorn, Kevin, Eveline, Lieselotte en Sander, die trouwens ook IMD (Interactive Multimedia en Design) heeft gestudeerd.</p>
+            <p>
+                Mijn eerste week stond in het teken van leren. Ik dook in cursussen op Coursera om me de technologieën van het bedrijf eigen te maken: TypeScript, React, Node.js en NestJS. 
+                Ook kreeg ik een kijkje hoe het bij hen dagelijks verloopt, zoals de dagelijkse stand-up meetings om half 5, waar we bespreken wat iedereen heeft gedaan en hoever we zijn met onze projecten. 
+                Op vrijdag heb ik de eerste week geëindigd met een mini-project waarin ik al mijn nieuwe kennis kon toepassen: een app maken waar je Pokémons kunt bekijken, toevoegen, en verwijderen. 
+                Oh, en niet te vergeten, we hebben heerlijk Thais gegeten tijdens de lunch 🙂. Een warm welkom en een week vol nieuwe inzichten.</p>
+            <h3>Week 2</h3>
+            <p>
+                Met frisse moed begon ik aan week twee door mijn Pokémon project af te ronden en de informatie uit een Postgres database te trekken. 
+                Daarna heb ik me kort verdiept in Docker met behulp een snelle cursus. Nu had ik een stevige basis van de technologieën die we gebruiken.
+            </p>
+            <p>
+                Vanaf dinsdagochtend heb ik mijn project met de database afgerond en overlopen met Kevin, waarna ik aan de slag ging met het opzetten van de development environment. 
+                Dit was een pittige klus die tot woensdag eind van de dag duurde, met wat hulp van Eveline en Kevin. Het was een ingewikkeld proces, maar eenmaal opgezet, is het een enorme tijdsbesparing.
+            </p>
+            <p>
+                De rest van de week heb ik doorgebracht met het team van Eveline en Lieselotte, om mee te werken aan hun projecten en nog meer te leren. Ik keek over de schouder van Lieselotte mee naar package updates en zat in calls om alles te volgen. 
+                Later, bij Eveline, leerde ik hoe ik alle tests moest runnen om problemen in de code op te sporen. Lieselotte gaf me ook een demo van Carity shop (een kassasysteem voor voedselbanken in Antwerpen), een leuk project waar we de komende periode aan gaan werken. 
+                We sloten de week af met een stand-up meeting, en zo vloog ook deze week voorbij.
+            </p>
+        </div>
+       
     </div>
     <footer>
         <ul>
@@ -41,8 +78,14 @@
                 <img src="images/linkedin.png" alt="LinkedIn icon">
                 <a href="https://www.linkedin.com/in/tjerk-symens-1ab771213/" target="_blank">LinkedIn</a>
             </li>
-            <li id="copyright"></li>
+            <li id="copyright">© 2024 Tjerk Symens</li>
         </ul>
     </footer>
+
+    <script>
+        document.querySelector('.foto-codeer').addEventListener('click', () => {
+            window.open('https://www.codeer.be/', '_blank');
+        }); 
+    </script>
 </body>
 </html>
