@@ -387,6 +387,10 @@ footer a {
     color: #5fa9b5;
 }
 
+.Blog_text {
+    padding-bottom: 32px;
+}
+
 @media (min-width: 1000px) {
     .project:nth-child(1) {
         transition-delay: 200ms;
