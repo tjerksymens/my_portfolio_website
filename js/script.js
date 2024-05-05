@@ -43,6 +43,9 @@ document.querySelector('#gitHeyaApi').addEventListener('click', () => {
 document.querySelector('#codeer').addEventListener('click', () => {
     window.open('https://www.codeer.be/', '_blank');
 });
+document.querySelector('#blog').addEventListener('click', () => {
+    window.open('https://www.tjerksymens.be/blog', '_blank');
+});
 document.querySelector('#gitSwear').addEventListener('click', () => {
     window.open('https://github.com/tjerksymens/dev5_eindbaas_vuejs', '_blank');
 });
@@ -71,4 +74,4 @@ document.querySelector('#gitReact').addEventListener('click', () => {
 });
 
 const currentYear = new Date().getFullYear();
-document.getElementById("copyright").innerHTML =`© ${currentYear}  Tjerk Symens`;
+document.getElementById("copyright").innerHTML = `© ${currentYear}  Tjerk Symens`;
