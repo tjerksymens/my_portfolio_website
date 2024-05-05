@@ -34,6 +34,24 @@ hiddenElements.forEach(element => {
     observer.observe(element);
 });
 
+document.querySelector('#gitHeya').addEventListener('click', () => {
+    window.open('https://github.com/mogumogudj/heya', '_blank');
+});
+document.querySelector('#gitHeyaApi').addEventListener('click', () => {
+    window.open('https://github.com/tjerksymens/Heya-backend', '_blank');
+});
+document.querySelector('#codeer').addEventListener('click', () => {
+    window.open('https://www.codeer.be/', '_blank');
+});
+document.querySelector('#gitSwear').addEventListener('click', () => {
+    window.open('https://github.com/tjerksymens/dev5_eindbaas_vuejs', '_blank');
+});
+document.querySelector('#gitSwearApi').addEventListener('click', () => {
+    window.open('https://github.com/tjerksymens/dev5_eindbaas_NodeJS_API', '_blank');
+});
+document.querySelector('#gitSwear').addEventListener('click', () => {
+    window.open('https://github.com/tjerksymens/dev5_eindbaas_vuejs', '_blank');
+});
 document.querySelector("#arrow_down").addEventListener('click', () => {
     document.querySelector("#about_home_screen").scrollIntoView({behavior: "smooth"});
 });
