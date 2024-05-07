@@ -103,6 +103,11 @@ p {
     color: #1D494B;
 }
 
+span {
+    font-family: 'Montserrat', sans-serif;
+    color: #1D494B;
+}
+
 #about_home_screen {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -159,6 +164,20 @@ h3 {
     color: #1D494B;
 }
 
+h3 a {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #5fa9b5;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1D494B;
+}
+
 #skills {
     display: flex;
     flex-direction: row;
@@ -211,10 +230,7 @@ button {
     color: #E8E7E1;
     border: none;
     border-radius: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 16px;
     cursor: pointer;
 }
 
@@ -287,7 +303,6 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: top;
     padding-bottom: 32px;
 }
 
